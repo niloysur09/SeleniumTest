@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="input2" value="12345"/>
+    <parameter name="input1" value="567"/>
+    <parameter name="url" value="https://www.online-calculator.com/full-screen-calculator/"/>
+    <parameter name="operator" value="*"/>
+    <classes>
+      <class name="testcases.TestCalculatorFeatures">
+        <methods>
+          <include name="ValidateCalculatorFeatures" invocation-numbers="0"/>
+          <include name="driverSetUp"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="driverClose"/>
+          <include name="extentReportSetup"/>
+        </methods>
+      </class> <!-- testcases.TestCalculatorFeatures -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

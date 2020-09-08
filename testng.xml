@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="Test1">
+	<parameter name="url" value="https://www.online-calculator.com/full-screen-calculator/"/>
+	<parameter name="browser" value="chrome"/>	
+	<parameter name="input1" value="15.21"/>
+	<parameter name="input2" value="10.12"/>		
+	<parameter name="operator" value="+"/>
+        <classes>
+            <class
+                name="testcases.TestCalculatorFeatures" />
+        </classes>
+    </test>
+</suite>
