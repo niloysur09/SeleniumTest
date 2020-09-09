@@ -2,7 +2,7 @@
 
 This Automation Framework for "Online Calculator" is built on "Selenium TestNG" using "Java" language. Please find below more details about this framework:
 
-1. Go to "testng.xml" and provide inputs for calculation and provide the operator. Everything is configurable from this xml ex: like URL of the application, Browser to use. Also configure the test suite/ test cases to be run from this xml only. this "testng.xml" can be run from command prompt or by using editors like Eclipse.
+1. Go to "testng.xml" and provide inputs for calculation and provide the operator. Everything is configurable from this xml ex: like URL of the application, Browser to use. Also configure the test suite/ test cases to be run from this xml only. this "testng.xml" can be run from command prompt or by using IDEs like Eclipse.
 2. Under "src" -> "pages" : this folder consists of classes where all the methods specific to this Online Calculator is written. Here it is "Calculator.java" class
 3. Under "src" -> "testcases" : The actual TestNG test cases are in this folder. Test cases are denoted with "@Test" and it does not consist of any method body, only steps and method calls will be made from testcases
 4. Under "src" -> "utils" : this folder consists of classes where all the required methods specific to the framework is written (not specific to the Online Calculator)
